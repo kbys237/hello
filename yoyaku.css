@@ -1,0 +1,261 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+@charset "utf-8";
+
+    
+
+
+    	body{
+
+    		background: black;
+
+    	}
+    
+
+
+
+
+
+    	
+ header {
+  z-index: 1;
+  width: 100%;
+    padding: 40px 4% 10px;
+
+    background-color: black;
+    position: fixed;
+   top: 0;
+   display: flex;
+   align-items: center;
+    }
+
+h1{
+  position: relative;bottom:8px;
+  left: 140px
+
+}
+
+div.yoko{
+
+  color: white;
+  font-family: "Sawarabi Mincho"; 
+  font-size: 15px;
+  margin: 0; padding: 0;
+  position: relative;bottom:28px;
+  left: 155px
+
+
+}
+div.uri{
+  color: white;
+  font-family: "Sawarabi Mincho"; 
+  font-size: 30px;
+  font-weight: normal;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.5)
+  margin: 0; padding: 0;
+  position: relative;left: 30px;
+}
+
+
+ul{
+  position: relative;left: 50px
+}
+
+
+
+
+li{
+  float: left;
+
+  margin: 30px;
+  position: relative;bottom:1px;
+}
+
+a{
+ text-decoration: none;
+ font-family: "Sawarabi Mincho"; 
+  font-size: 16px;
+  color: white;
+}
+
+li{
+  background-color: black;
+  color: black !important;
+  margin-left: 15px;
+  padding: 7px 15px 7px 15px
+
+}
+
+li:last-child:hover{
+  background-color: black
+}
+
+
+
+li:last-child{
+  background-color: #FF6633;
+  color: #fff !important;
+  margin-left: 20px;
+  padding: 7px 18px 7px 18px
+
+}
+li:last-child:hover{
+  background-color: #33CC99
+}
+
+
+
+
+
+
+.relative{
+  position: relative;
+}
+
+
+
+.absolute{
+  position: absolute;
+  right:280px;
+  top: 190px;
+}
+
+
+div.box{
+  background-color: rgba(37,37,37,0.5);
+  width: 1000px;
+  height: 630px;
+  position: relative;top: 150px;
+  margin-left: 200px;
+
+}
+
+h2{
+  color: white;
+    font-family: "Sawarabi Mincho";
+    position: relative;top: 20px;
+    margin-left: 580px;
+    
+}
+h3{
+  color: white;
+    font-family: "Sawarabi Mincho";
+    position: relative;top: 40px;
+    margin-left: 590px;
+    font-size: 30px;
+}
+
+
+
